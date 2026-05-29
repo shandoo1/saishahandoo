@@ -98,8 +98,8 @@ window.CASE_STUDIES = {
       }
     ],
     gallery: [
-      { src: 'uberfare-scatter.png', label: 'Fare vs. distance by time of day' },
-      { src: 'uberfare-models.png', label: 'Process artifact: visual mapping of model logic' }
+      { src: 'Screenshot 2026-05-25 at 2.37.46 PM.png', label: 'Fare vs. distance by time of day' },
+      { src: 'Screenshot 2026-05-25 at 2.38.42 PM.png', label: 'Process artifact: visual mapping of model logic' }
     ],
     links: [
       { label: 'Click to read the full report', href: 'https://drive.google.com/file/d/111nxd171hvHE_m1wBlILuIwokHPZwAou/view?usp=drive_link' }
@@ -115,7 +115,7 @@ window.CASE_STUDIES = {
     timeline: 'UXTerps Makeathon · 2026',
     tools: 'Figma · FigJam · In-person interviews',
     status: 'PROTOTYPE',
-    imgSrc: 'techturnup',
+    imgSrc: 'techturnup.png',
     sections: [
       {
         heading: 'The Problem',

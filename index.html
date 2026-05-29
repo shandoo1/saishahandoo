@@ -29,34 +29,7 @@
 <link rel="stylesheet" href="styles.css" />
 </head>
 <script>
-/* =========================
-   IMAGE FIX SYSTEM
-   ========================= */
 
-const IMAGE_MAP = {
-  "sweetvida.png": "sweetvida.png",
-  "uberfare.png": "uberfare.png",
-  "techturnup.png": "techturnup.png",
-  "airaware.png": "airaware.png",
-  "uniranks.png": "uniranks.png",
-
-  "sweetvida-storefront.png": "sweetvida-storefront.png",
-  "sweetvida-about.png": "sweetvida-about.png",
-  "uberfare-scatter.png": "uberfare-scatter.png",
-  "uberfare-models.png": "uberfare-models.png",
-  "ttu-lesson.png": "ttu-lesson.png",
-  "ttu-chat.png": "ttu-chat.png",
-  "airaware-screens.png": "airaware-screens.png",
-  "airaware-widget.png": "airaware-widget.png",
-  "uniranks-scatter-matrix.png": "uniranks-scatter-matrix.png",
-  "uniranks-academic.png": "uniranks-academic.png"
-};
-
-function resolveImg(src) {
-  if (!src) return "";
-  return IMAGE_MAP[src] || src;
-}
-</script>
 <body>
 
 <template id="__bundler_thumbnail">
@@ -1051,55 +1024,6 @@ function resolveImg(src) {
   </div>
 </div>
 <script>
-const modal = document.getElementById("modal");
-const modalBody = document.getElementById("modal-body");
-
-/* OPEN MODAL */
-document.querySelectorAll("[data-modal]").forEach(card => {
-  card.addEventListener("click", (e) => {
-    e.preventDefault();
-
-    const id = card.dataset.modal;
-
-    const data = CASE_STUDIES[id];
-    if (!data) return;
-
-    modalBody.innerHTML = `
-      <div class="modal-header">
-        <h2>${data.title || ""}</h2>
-        <p>${data.blurb || ""}</p>
-      </div>
-
-      <div class="modal-hero">
-        <img src="${resolveImg(data.image)}" />
-      </div>
-
-      <div class="modal-content">
-        <p>${data.description || ""}</p>
-
-        ${
-          data.gallery?.length
-            ? `<div class="modal-gallery">
-                ${data.gallery.map(img =>
-                  `<img src="${resolveImg(img)}" />`
-                ).join("")}
-               </div>`
-            : ""
-        }
-      </div>
-    `;
-
-    modal.classList.add("open");
-  });
-});
-
-/* CLOSE MODAL (click outside) */
-modal.addEventListener("click", (e) => {
-  if (e.target === modal) {
-    modal.classList.remove("open");
-  }
-});
-</script>
 
 <!-- scripts -->
 <script src="case-studies.js"></script>

@@ -12,7 +12,7 @@ window.CASE_STUDIES = {
     timeline: 'Semester project · 2025–2026',
     tools: 'Sublime · Figma · Notion',
     status: 'DESIGNED & BUILT',
-    imgSrc: 'assets/sweetvida.png',
+    imgSrc: 'sweetvida.png',
     sections: [
       {
         heading: 'The Problem',
@@ -42,8 +42,8 @@ window.CASE_STUDIES = {
       }
     ],
     gallery: [
-      { src: 'assets/sweetvida-storefront.png', label: 'Storefront, trending products, live menu' },
-      { src: 'assets/sweetvida-about.png', label: 'About page, owner story, brand voice' }
+      { src: 'sweetvida-storefront.png', label: 'Storefront, trending products, live menu' },
+      { src: 'sweetvida-about.png', label: 'About page, owner story, brand voice' }
     ],
     links: [
       { label: 'Click to read the full report', href: 'https://drive.google.com/file/d/1xq9fkOHKSv3RrCEdcT_VUD3-uahQV_Pc/view?usp=drive_link' },
@@ -60,7 +60,7 @@ window.CASE_STUDIES = {
     timeline: 'BMGT431 · 2026',
     tools: 'R · ggplot2 · XGBoost · K-means',
     status: 'PUBLISHED',
-    imgSrc: 'assets/uberfare.png',
+    imgSrc: 'uberfare.png',
     sections: [
       {
         heading: 'The Question',
@@ -98,8 +98,8 @@ window.CASE_STUDIES = {
       }
     ],
     gallery: [
-      { src: 'assets/uberfare-scatter.png', label: 'Fare vs. distance by time of day' },
-      { src: 'assets/ttu-lesson.png', label: 'Process artifact: visual mapping of model logic' }
+      { src: '/uberfare-scatter.png', label: 'Fare vs. distance by time of day' },
+      { src: '/ttu-lesson.png', label: 'Process artifact: visual mapping of model logic' }
     ],
     links: [
       { label: 'Click to read the full report', href: 'https://drive.google.com/file/d/111nxd171hvHE_m1wBlILuIwokHPZwAou/view?usp=drive_link' }
@@ -115,7 +115,7 @@ window.CASE_STUDIES = {
     timeline: 'UXTerps Makeathon · 2026',
     tools: 'Figma · FigJam · In-person interviews',
     status: 'PROTOTYPE',
-    imgSrc: 'assets/techturnup.png',
+    imgSrc: '/techturnup.png',
     sections: [
       {
         heading: 'The Problem',
@@ -147,8 +147,8 @@ window.CASE_STUDIES = {
       }
     ],
     gallery: [
-      { src: 'assets/uberfare-models.png', label: 'Lesson logic flow, structured for clarity' },
-      { src: 'assets/ttu-chat.png', label: 'Group Hub chat, missions panel, XP tracker' }
+      { src: '/uberfare-models.png', label: 'Lesson logic flow, structured for clarity' },
+      { src: '/ttu-chat.png', label: 'Group Hub chat, missions panel, XP tracker' }
     ],
     links: [
       { label: 'Click to view the full slides', href: 'https://drive.google.com/file/d/1rguwaNHC5BiHxwXt4I17AXfqumi6fGHS/view?usp=drive_link' },
@@ -165,7 +165,7 @@ window.CASE_STUDIES = {
     timeline: 'INST 304 · Team 2 · 2025',
     tools: 'Figma · Canva · Usability testing',
     status: 'PROTOTYPE',
-    imgSrc: 'assets/airaware.png',
+    imgSrc: '/airaware.png',
     sections: [
       {
         heading: 'The Problem',
@@ -190,8 +190,8 @@ window.CASE_STUDIES = {
       }
     ],
     gallery: [
-      { src: 'assets/airaware-screens.png', label: 'Home + Current Flights, the live status tile' },
-      { src: 'assets/airaware-widget.png', label: 'Widget and notification, info that finds the traveler' }
+      { src: '/airaware-screens.png', label: 'Home + Current Flights, the live status tile' },
+      { src: '/airaware-widget.png', label: 'Widget and notification, info that finds the traveler' }
     ],
     links: [
       { label: 'Click to view the project site', href: 'https://umcp.my.canva.site/304-team2' }
@@ -207,7 +207,7 @@ window.CASE_STUDIES = {
     timeline: 'Top 150 universities · 2025',
     tools: 'R · ggplot2 · Regression diagnostics',
     status: 'PUBLISHED',
-    imgSrc: 'assets/uniranks.png',
+    imgSrc: '/uniranks.png',
     sections: [
       {
         heading: 'The Problem',
@@ -229,8 +229,8 @@ window.CASE_STUDIES = {
       }
     ],
     gallery: [
-      { src: 'assets/uniranks-scatter-matrix.png', label: 'Scatterplot matrix of numeric variables' },
-      { src: 'assets/uniranks-academic.png', label: 'Academic reputation vs. QS rank, clear negative slope' }
+      { src: '/uniranks-scatter-matrix.png', label: 'Scatterplot matrix of numeric variables' },
+      { src: '/uniranks-academic.png', label: 'Academic reputation vs. QS rank, clear negative slope' }
     ],
     links: [
       { label: 'Click to read the full report', href: 'https://drive.google.com/file/d/1nLtDX6ducq9zJalukfYjrq_whTtzkgnG/view' }

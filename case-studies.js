@@ -99,7 +99,7 @@ window.CASE_STUDIES = {
     ],
     gallery: [
       { src: 'uberfare-scatter.png', label: 'Fare vs. distance by time of day' },
-      { src: 'ttu-lesson.png', label: 'Process artifact: visual mapping of model logic' }
+      { src: 'uberfare-models.png', label: 'Process artifact: visual mapping of model logic' }
     ],
     links: [
       { label: 'Click to read the full report', href: 'https://drive.google.com/file/d/111nxd171hvHE_m1wBlILuIwokHPZwAou/view?usp=drive_link' }
